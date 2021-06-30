@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale=1">
+		<title>JS Meteo App</title>
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<main>
+			<h1>Local Weather</h1>
+			<div class="location">
+				<i class="fas fa-map-marker-alt" aria-hidden="true"></i> <p id="ville">-</p>
+			</div>
+			<div class="notification"></div>
+			<div class="weather-container">
+				<div class="weather-icon">
+					<img src="icons-weather/unknown.svg" alt="Rainbow">
+				</div>
+				<div class="temperature-value">
+					<p> - °<span>C</span></p>
+				</div>
+				
+				<div class="temperature-description">
+					<p> - </p>
+				</div>
+				<div>
+					<div class="row justify-content-center">  
+						<div class="col-md-6 text-center">
+						  <div id="changer" class="mt-8 text-center p-8 text-white font-weight-bold text-uppercase d-inline-block">
+							 Changer de ville
+						  </div>
+				</div>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
